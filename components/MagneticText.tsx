@@ -16,7 +16,7 @@ const MagneticText = ({ children }: { children: string }) => {
       {letters.map((letter, i) => {
         if (letter === " ") {
           return (
-            <span key={i} className="w-[0.4em]">
+            <span key={i} className="w-[0.3em]">
               &nbsp;
             </span>
           )
